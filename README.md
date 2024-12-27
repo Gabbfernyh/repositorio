@@ -1,1 +1,2 @@
-#Repositorio dos meus preimeiros projetos na inicialização e aprendizagem de programador
+*Repositorio dos meus preimeiros projetos na inicialização e aprendizagem de programador*
+
