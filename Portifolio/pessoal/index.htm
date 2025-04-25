@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <div class="Menus">
+                    <nav>
+                        <a href="#home">Home</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#projetos">Projetos</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-main">
+
+
+            <section id="home" class="home-section">
+                <div class="home-content">
+                    <div class="profile-image">
+                        <div class="perfil">
+                            <img src="src/img/perfil.jpg" alt="Foto-de-Perfil">
+                        </div>
+                        <br>
+                        <h1>Bem-vindo ao Meu Portfólio</h1>
+                        <br>
+                        <p>Olá!!! sou <span class="typing">Gabriel Fernandes</span>, desenvolvedor front-end apaixonado
+                            por tecnologia, sempre buscando coisas novas.</p>
+                        <a href="#sobre" class="direction-button">-Saiba Mais-</a>
+                    </div>
+            </section>
+
+            <br>
+
+            <section id="sobre">
+                <div class="container">
+                    <div class="sobre-text">
+                        <h2>Sobre</h2>
+                        <br>
+                        <p>Olá, meu nome é <strong>Marcos Gabriel</strong>, tenho 15 anos e sou desenvolvedor front-end.
+                            Atualmente
+                            estou
+                            cursando
+                            Automação, DevOps, Garantia de Qualidade / Quality Assurance (Qa) na Qazando. Sou apaixonado
+                            por
+                            tecnologia e estou sempre em busca de novos conhecimentos e diversas areas me aprofundando
+                            com tudo em que podem oferecer.</p>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+
+            <section id="projetos">
+                <div class="container">
+                    <div class="projetos-text">
+                        <h2>Projetos</h2>
+                        <br>
+                        <p>Durante meu inicio e progresso na programação ,Confira abaixo alguns dos meus projetos:
+                        </p>
+                    </div>
+                    <br>
+                    <div class="projetos">
+                        <div class="projeto">
+                            <img src="src/img/projeto1.png" alt="Projeto 1">
+                            <h3>Projeto 1</h3>
+                            <br>
+                            <p>Descrição do projeto 1</p>
+                        </div>
+                        <br>
+                        <div class="projeto">
+                            <img src="src/img/projeto2.png" alt="Projeto 2">
+                            <h3>Projeto 2</h3>
+                            <br>
+                            <p>Descrição do projeto 2</p>
+                        </div>
+                        <br>
+                        <div class="projeto">
+                            <img src="src/img/projeto3.png" alt="Projeto 3">
+                            <h3>Projeto 3</h3>
+                            <br>
+                            <p>Descrição do projeto 3</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <br>
+
+            <section id="contato">
+                <div class="container">
+                    <div class="contato-text">
+                        <h2>Entre em Contato</h2>
+                        <form action="https://formspree.io/f/xovedwlz" method="POST"
+                            onsubmit="return handleSubmit(event)">
+                            <label>
+                                <h2>Seu nome: </h2>
+                                <input type="text" name="name">
+                                <label>
+                                    <h2>Seu email: </h2>
+                                    <input type="email" name="email">
+                                </label>
+                                <input type="file" name="file" accept=".pdf, .doc, .docx, .png">
+                                <label>
+                                    <h2>Mensagem:</h2>
+                                    <textarea name="message"></textarea>
+                                </label>
+                                <button type="submit" onclick="botão-de-envio">Enviar</button>
+                        </form>
+                        <div class="social-media">
+                            <a href="https://wa.me/SEU_NUMERO_DE_TELEFONE" target="_blank" class="whatsapp"><i
+                                    class="fab fa-whatsapp"></i> WhatsApp</a>
+                            <a href="https://www.instagram.com/SEU_USUARIO_DO_INSTAGRAM" target="_blank"
+                                class="instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <br>
+        <footer class="final-de-exibição">
+            <div class="social-icons">
+            </div>
+            <p>&copy; 2025 Gabbfernyh. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

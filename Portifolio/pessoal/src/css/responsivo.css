@@ -1,0 +1,88 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .Menus nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home-section {
+        padding: 20px;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+
+    .projetos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .projeto {
+        width: 100%;
+    }
+
+    .contato-text form {
+        width: 100%;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Menus nav {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .home-section {
+        padding: 40px;
+    }
+
+    .home-content {
+        max-width: 80%;
+    }
+
+    .projetos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .projeto {
+        width: 48%;
+    }
+
+    .contato-text form {
+        width: 80%;
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    .Menus nav {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .home-section {
+        padding: 60px;
+    }
+
+    .home-content {
+        max-width: 60%;
+    }
+
+    .projetos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .projeto {
+        width: 30%;
+    }
+
+    .contato-text form {
+        width: 60%;
+    }
+}

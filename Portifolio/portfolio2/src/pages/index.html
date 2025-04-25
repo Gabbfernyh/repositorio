@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Gabriel Fernandes</title>
+    <link rel="stylesheet" href="/src/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ===========================
+         NAVEGAÇÃO
+    ============================ -->
+    <nav class="navegação">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+            <li><a href="#" id="open-popup">Contato</a></li>
+            <!-- <li><button id="toggle-theme">Alternar Tema</button></li> -->
+        </ul>
+    </nav>
+
+    <!-- ===========================
+         INÍCIO
+    ============================ -->
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="/src/assets/imgs/profile/Foto de perfil" alt="Foto de Gabriel Fernandes" class="foto-perfil">
+            <h1>Gabriel Fernandes</h1>
+            <p>Desenvolvedor Front-End</p>
+        </div>
+    </main>
+
+    <!-- ===========================
+         SOBRE MIM
+    ============================ -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <div>
+            <p>
+                Olá, meu nome é Marcos Gabriel, tenho 15 anos e sou desenvolvedor front-end. Atualmente estou cursando
+                Automação, DevOps, Garantia de Qualidade / Quality Assurance (Qa) na Qazando, e CSHARP (C#). Sou
+                apaixonado por tecnologia e estou sempre em busca de novos conhecimentos e diversas áreas me
+                aprofundando com tudo em que podem oferecer.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===========================
+         PROJETOS
+    ============================ -->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="/src/assets/imgs/projects/project1.jpg" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição breve do projeto.</p>
+                <a href="#" class="btn">Ver Projeto</a>
+            </div>
+            <div class="project-card">
+                <img src="/src/assets/imgs/projects/project2.jpg" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Descrição breve do projeto.</p>
+                <a href="#" class="btn">Ver Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===========================
+         CONTATO (POP-UP)
+    ============================ -->
+    <div id="popup-container" class="hidden"></div>
+    <div id="loading-spinner" class="hidden">Carregando...</div>
+
+    <!-- ===========================
+         CONHECIMENTOS
+    ============================ -->
+    <section id="conhecimentos">
+        <h2>Conhecimentos</h2>
+        <div class="knowledge-container">
+            <div class="knowledge-text">
+                <p>
+                    Aqui estão algumas das tecnologias e ferramentas que utilizo em meus projetos. Cada uma delas
+                    desempenha um papel importante no desenvolvimento de soluções modernas e eficientes. Abaixo, você
+                    pode ver uma lista das tecnologias que aprendi e continuo aprimorando.
+                </p>
+            </div>
+            <div class="tech-list-container">
+                <ul class="tech-list">
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--html.svg" alt="HTML">
+                            <p>HTML</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--css.svg" alt="CSS">
+                            <p>CSS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--javascript.svg" alt="JavaScript">
+                            <p>JavaScript</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--react-dark.svg" alt="React">
+                            <p>React</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--cs.svg" alt="C#">
+                            <p>C#</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--python-dark.svg" alt="Python">
+                            <p>Python</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--git.svg" alt="Git">
+                            <p>Git</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--figma-dark.svg" alt="Figma">
+                            <p>Figma</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--github-dark.svg" alt="GitHub">
+                            <p>GitHub</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--typescript.svg" alt="TypeScript">
+                            <p>TypeScript</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--vite-dark.svg" alt="Vite">
+                            <p>Vite</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="knowledge-item">
+                            <img src="/src/assets/imgs/icons/skill-icons--angular-dark.svg" alt="Angular">
+                            <p>Angular</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===========================
+         RODAPÉ
+    ============================ -->
+    <footer>
+        <p>&copy; 2025 Gabriel Fernandes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="/src/JS/script.js"></script>
+</body>
+
+</html>

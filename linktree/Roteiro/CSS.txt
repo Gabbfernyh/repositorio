@@ -69,7 +69,7 @@ h3 {
 
 /* Estilo para biografia ou outras informações de escolha*/
 .descricao{
-border: 2px solid rgb(86, 60, 179);
+border: 2px solid mediumseagreen;
 }
 .biografia{
     border: 2px solid blue;
